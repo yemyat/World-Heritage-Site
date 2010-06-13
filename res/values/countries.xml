@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="countries">
+	<item>{India}</item>
+	<item>{Cambodia}</item>
+	<item>{China}</item>
+	<item>{Australia}</item>
+	<item>{Iran}</item>
+	<item>{Australia}</item>
+	<item>{Australia}</item>
+	<item>{Japan}</item>
+	<item>{Republic of Korea}</item>
+	<item>{Iraq}</item>
+</string-array>
+</resources>

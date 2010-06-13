@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="normal_view">Normal view</string>
+	<string name="undefined">Calculating</string>
+	<string name="btnBack">Back</string>
+	<string name="satellite_view">Satellite view</string>
+	<string name="wiki">Wikipedia</string>
+	<string name="comment">Feedback</string>
+	<string name="distance">Distance</string>
+	<string name="view_wiki">Show me on Wiki</string>
+	<string name="give_feedback">Give a feedback</string>
+	<string name="view_map">Show me on the map</string>
+	<string name="show_photos">Show me some photos</string>
+	<string name="askIfFeedback">Would you like to give a feedback?</string>
+	<string name="rating">Rating</string>
+	<string name="subject">Subject</string>
+	<string name="email">Email</string>
+	<string name="telephone">Telephone number</string>
+	<string name="feedback">Feedback</string>
+	<string name="submit">Submit</string>
+	<string name="clear">Clear</string>
+	<string name="cancel">Cancel</string>
+	<string name="delete">Delete this place</string>
+	<string name="app_name">Discover Asia</string>
+</resources>

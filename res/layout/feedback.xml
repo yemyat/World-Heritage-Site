@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@color/green" android:paddingTop="5px">
+		<TextView android:id="@+id/textTitle" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:paddingLeft="10px" android:textStyle="bold" android:textColor="@color/white">
+		</TextView>
+		<Button android:id="@+id/btnCancel" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/cancel"
+			android:layout_weight="4">
+		</Button>
+	</LinearLayout>
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="0dp" android:layout_weight="1">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="vertical">
+			<TextView android:text="@string/email" android:id="@+id/TextView01"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="25sp"></TextView>
+			<EditText android:id="@+id/editEmail" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:singleLine="true"
+				android:inputType="textEmailAddress"></EditText>
+			<TextView android:text="@string/telephone" android:id="@+id/TextView02"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="25sp"></TextView>
+			<EditText android:id="@+id/editTelephone"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:singleLine="true" android:inputType="textEmailSubject"></EditText>
+			<TextView android:text="@string/feedback" android:id="@+id/TextView03"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="25sp"></TextView>
+			<EditText android:id="@+id/editFeedback"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:singleLine="false" android:inputType="textMultiLine"></EditText>
+			<TextView android:text="@string/rating"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="25sp"></TextView>
+			<RatingBar android:id="@+id/rating" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:numStars="4"
+				android:layout_gravity="center_horizontal" android:rating="4"
+				android:soundEffectsEnabled="true"></RatingBar>
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@drawable/bottom_bar" android:gravity="right|center_vertical">
+		<Button android:text="@string/submit" android:id="@+id/btnSubmit"
+			android:layout_width="wrap_content" android:paddingLeft="20dp"
+			android:paddingRight="20dp" android:layout_height="wrap_content"></Button>
+		<Button android:text="@string/clear" android:id="@+id/btnClear"
+			android:layout_width="wrap_content" android:paddingLeft="20dp"
+			android:paddingRight="20dp" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>

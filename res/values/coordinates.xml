@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="coordinates">
+		<item>27.174858,78.042383</item>
+		<item>13.412226,103.865454</item>
+		<item>40.343633,116.001635</item>
+		<item>-17.711625,146.741207</item>
+		<item>29.9333,52.9</item>
+		<item>-13.092359,132.393837</item>
+		<item>-33.856874,151.214962</item>
+		<item>34.83937,134.694024</item>
+		<item>37.6333,126.9833</item>
+		<item>34.1928,43.8856</item>
+	</string-array>
+</resources>

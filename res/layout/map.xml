@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/linear"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:minHeight="65px" android:background="@color/green"
+		android:paddingTop="5px" android:paddingBottom="5px"
+		android:paddingRight="5px">
+		<TextView android:id="@+id/textTitle" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="2"
+			android:paddingLeft="10px" android:textStyle="bold"
+			android:textColor="@color/white">
+		</TextView>
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:layout_toRightOf="@id/textTitle">
+			<TextView android:id="@+id/textDistance" android:text="@string/undefined"
+				android:layout_width="fill_parent" android:textColor="@color/white"
+				android:layout_height="wrap_content" android:textStyle="italic">
+			</TextView>
+			<TextView android:id="@+id/textBearing" android:text=""
+				android:layout_width="fill_parent" android:textColor="@color/white"
+				android:layout_height="wrap_content" android:textStyle="italic"
+				android:layout_below="@id/textDistance">
+			</TextView>
+		</RelativeLayout>
+	</LinearLayout>
+	<com.google.android.maps.MapView
+		android:layout_below="@id/linear" android:id="@+id/mapView"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:apiKey="0X61cKr4acKqXt8YjWLeg2KRgvXYCbKpGRdSf7A"
+		android:clickable="true" />
+</RelativeLayout>
